@@ -11,5 +11,8 @@
         <service id="AulaSoftwareLibre\DDD\DevBundle\Maker\MakeEventStore">
             <tag name="maker.command" />
         </service>
+        <service id="AulaSoftwareLibre\DDD\DevBundle\Maker\MakeReadModel">
+            <tag name="maker.command" />
+        </service>
     </services>
 </container>
